@@ -15,20 +15,14 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import Home from './Home';
 import LoginForm from './Authentication/LoginForm';
 import SignUpForm from './Authentication/SignUpForm';
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-import ForgetPassword from './Authentication/ForgetPassword.js'
+import ForgetPassword from './Authentication/ForgetPassword.js';
 export default class App extends Component{
   render(){
     return(
-      <LoginForm/>
+      <Home/>
     )
   }
 }
